@@ -1,0 +1,29 @@
+1.顺序：从前往后
+2.功能---->方法（接口）
+3.类和接口的命名规则
+  
+  user表----->User类
+  
+  ..controller:    XxxController（UserController）
+  ..service:       XxxService    (UserService)
+  ..service.impl:  XxxServiceImpl
+  ..dao:           XxxDao
+  ..dao.impl:      XxxDaoImpl
+  
+  
+
+
+
+
+1. 自己创建的Servlet继承BaseServlet
+
+
+2. 发送请求     /xxx?method=方法名(实现的功能的名称)
+
+
+3.
+
+
+修改：  1. 先根据id去查询这条数据，在页面展示这条数据
+     2. 在此页面上进行数据修改，然后再点击修改按钮发送到服务器完成修改功能
+ 
